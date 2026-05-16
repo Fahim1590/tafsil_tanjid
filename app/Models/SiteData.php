@@ -9,7 +9,7 @@ final class SiteData
             'name' => 'تفصيل ستارة',
             'brand' => 'تفصيل ستارة | Tafsil Sitara',
             'tagline' => 'ستائر فاخرة وتنجيد راق في الرياض',
-            'basePath' => '/tafsil-sitara',
+            'basePath' => getenv('VERCEL') ? '' : '/tafsil-sitara',
             'baseUrl' => 'https://tafsilsitara.sa',
             'phoneDisplay' => '+966 50 000 0000',
             'phoneTel' => '+966500000000',
